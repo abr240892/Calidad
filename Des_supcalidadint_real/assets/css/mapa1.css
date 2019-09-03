@@ -1,0 +1,51 @@
+div.mapa_imagen:
+{
+  position: relative
+}
+ul.notas li {
+  list-style: block;
+  display: none;
+  position: absolute;
+/*  color del borde*/
+/*  border: medium solid #f44336;*/
+  border-top: medium solid #f44336;
+  border-right: medium solid #f44336;
+  border-bottom: medium solid #f44336;
+  border-left: medium solid #f44336;
+  border-background: hidden;
+}
+div.mapa_imagen:hover ul.notas li {
+  /*display: block;*/
+}
+ul.notas li p {
+  margin: -250px 0 0 0;
+  padding: .0em;
+  display: block;
+  color: red;
+  font-size:25px;
+  position: absolute;
+  top: 100%;
+/*  color: #030202;*/
+}
+
+/*Posicion del cuadro de color*/
+ul.notas li:hover p {
+  /*display: block;*/
+}
+ 
+ul.notas li#nota1 {
+  position: absolute; width: 200px; height: 200px; top: 100px; left: 570px;
+}
+
+.marcoColumnas{
+  border:2px #4297d7 solid;
+  width:auto;
+  padding: 5px;
+  -webkit-border-radius: 5px; 
+  border-radius: 5px; 
+}
+
+div.mapa_imagen:
+{
+  
+}
